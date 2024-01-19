@@ -2,4 +2,4 @@ FROM python:alpine
 
 
 ENTRYPOINT ["./hello.py"]
-CMD ["HELLO"]
+CMD ["HELLO!"]
