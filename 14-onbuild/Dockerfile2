@@ -1,0 +1,6 @@
+FROM 13-expose
+# Automatically ONBUILD COPY db-config.json . will be executed.
+EXPOSE 8000
+
+CMD ["uvicorn", "webapp:app", "--reload", "--host=0.0.0.0"]
+

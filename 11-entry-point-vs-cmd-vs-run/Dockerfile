@@ -1,5 +1,6 @@
 FROM python:alpine
 
+COPY hello.py .
 
 ENTRYPOINT ["./hello.py"]
-CMD ["HELLO!"]
+CMD ["1"]

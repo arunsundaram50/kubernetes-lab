@@ -1,3 +1,8 @@
+## To not use cache for everything
+```bash
+docker build --no-cache -t image_name .
+```
+## To not use cache from a certain point in the Dockerfile
 We need to use CACHEBUST like
 ```
 COPY config.txt /tmp/${CACHEBUST}.txt
