@@ -1,0 +1,1 @@
+The ONBUILD instruction adds a trigger instruction to the image that will be executed at a later time, when the image is used as the base for another build. The trigger will be executed in the context of the downstream build, as if it had been inserted immediately after the FROM instruction in the downstream Dockerfile.
